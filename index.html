@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MY ROOMS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "logo.png" type = "image/png">
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>MY ROOMS</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>PROVIDING NICE AND COMFORTABLE PLACE TO STAY</h2>
+                <p>We provide you rooms according to your need. We are here to provide you rooms at your needed slot, which will be a friend of your budjet and makes you travel.So get rooms anytime anywhere at any budjet."MY ROOMS" will provide you my rooms,your rooms and everone's room.Every money counts!!!</p>
+                <button type = "button" class = "head-btn">GET STARTED</button>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+        <!-- end of side navbar -->
+
+        
+        <div id = "Modal"></div>
+       
+        <!-- body content  -->
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service</h2>
+                        <p>The search for food in new places is over!! You can also order food from the nearest hotels from your room through this website. There are various option for payment after dilivery incuding upi payments,card payments and cash on delivery. Feeling hungry?? we are here to deal with your hunger.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Refreshment</h2>
+                        <p>Booking rooms from our website will provide you additional refreshments  including welcome drinks by the hotels and also provide the best room you can get at a good discounted price. Our customers will be treated with special attention and priority.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+               
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Budjet rooms/Luxury rooms</h2>
+                        <p>Here you will be getting both the options of Luxury Rooms and budjet friendly rooms. Apart from that from our app you can get every room at a cheaper cost by our offers and gift card.First time user will aslo get a discount coupon of not paying the base price of the room.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Your privacy and security</h2>
+                        <p>Only verified rooms will be available to you which will undoubtedly provide you a good privacy and security! The hotel can be booked at prior basis with a security payment. Then you can come and have a comfortable stay at your rooms at the booked slot. Book anytime,anywhere,anyplace.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">persons: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms available near your location</h2>
+            </div>
+            <div class = "rooms-container">
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "sonnie-hiles-DhFHtkECn7Q-unsplash.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Budjet Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Two adult room
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Food service available.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                comfortable stay
+                            </li>
+                        </ul>
+                        <p>You do have option of booking any of the 4 slots from 12am to 6 am, 6am to 12pm,12pm to 6pm,6pm to 12 am.</p>
+                        <p>From hotel: We provide you best service. single room with double bed attached toilet and bathroom.</p>
+                        <p class = "rate">
+                            <span>99.00 base +/</span>your slot price.
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "img2.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Three adult room
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Food service available
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Near to beach.
+                            </li>
+                        </ul>
+                        <p>You do have option of booking any of the 4 slots from 12am to 6 am, 6am to 12pm,12pm to 6pm,6pm to 12 am.</p>
+                        <p>From hotel: Welcomes you with welcome drink. Provide you all basic items like toothbrush,toothpaste,soap.We provides aquagruard, tea pouch, kettle and many refreshments.</p>
+                        <p class = "rate">
+                            <span>199.00 base +/</span>your slot price.
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "img3.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Best couple rooms
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Food service available.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                best option to privacy
+                            </li>
+                        </ul>
+                        <p>You do have option of booking any of the 4 slots from 12am to 6 am, 6am to 12pm,12pm to 6pm,6pm to 12 am.</p>
+                        <p>From Hotel: We provide you the best premium experience of hotels. We have separate rooms have a good distance from eachother provide you good privacy. Our all service will be available to you 24*7 at your rooms any time you call.</p>
+                        <p class = "rate">
+                            <span>199.00 base +/</span>your slot price.
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+            </div>
+        </section>
+
+
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>Me and my brother had dropped hundreds of our tour plans due to this 24 hour format of payment for a hotel. But due to this Simple and easy interface. We could book our hotel at a prior basis. and makes our travel to this new place so smooth.We got treated in a very nice way.Loved this.Thanks to "MY ROOMS" for making my travel easy.</p>
+                        <img src = "tania-mousinho-fKmzq3fue0I-unsplash.jpg" alt = "customer image">
+                        <span>Subham, India</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Everything was easy due to this app</h3>
+                        <p>Earlier searching for food at a new place was a task but here in this app we can book hotels arrange food talking to hotel owner everything is done in a single place. Saves a lot of time!! and MOney as well.. LOL!
+                            Just Loved the initiative by "MY ROOMS" for this new slot booking system.Uff saves of spending 24 hour bill just by staying in for 4 to 5 hours at hotel.
+                        </p>
+                        <img src = "michael-dam-mEZ3PoFGs_k-unsplash.jpg
+                        " alt = "customer image">
+                        <span>Ruchi, India</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Loved the initiative!</h3>
+                        <p>Sometimes my train to my destination was night time. If I had to book any hotel I had to pay for the entire day. And my max stay at hotel was just for 4 to 5 hours. Rest of the time I just explore the place I go.But I didn't had any option of booking room for any perticular interval of time. BUt "MY ROOMS" provide me rooms at any perticular slot I want.Thanks "MY ROOMS".</p>
+                        <img src = "cus3.jpg" alt = "customer image">
+                        <span>Yunmun, Vietnam</span>
+                    </div>
+                    <!-- end of single customer -->
+                </div>
+            </div>
+        </section>
+        <!-- end of body content -->
+        
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>About Us </h2>
+                    <p>We are the one which can provide you rooms apart from the traditional System of 24 hours format. You can Book any 6 hours slot of a given day. Saves your money and makes you travel anywhere you want. With us!</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Useful Links</h2>
+                    <a href = "#">Blog</a>
+                    <a href = "#">Rooms</a>
+                    <a href = "#">Subscription</a>
+                    <a href = "#">Gift Card</a>
+                </div>
+
+                <div>
+                    <h2>Privacy</h2>
+                    <a href = "#">Career</a>
+                    <a href = "#">About Us</a>
+                    <a href = "#">Contact Us</a>
+                    <a href = "#">Services</a>
+                </div>
+
+                <div>
+                    <h2>Have A Question</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            BH1,Lovely Professional University,Paghwara,Punjab.
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +918658247125
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            manoranjanheremano@gmail.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+        
+        <script src="script.js"></script>
+    </body>
+</html>
